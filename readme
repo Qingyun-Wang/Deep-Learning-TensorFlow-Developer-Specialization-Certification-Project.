@@ -1,1 +1,51 @@
-In this folder, I keeped those class projects I completed from Coursera courses or DataCamp
+In this folder, I keeped part of class projects I completed from Coursera courses or DataCamp. 
+
+They are:
+Mobile Games A/B Testing with Cookie Cats using Bootstrap analysis
+• Working with pandas DataFrames and pandas plot method to manipulate and visualize the data
+• Applying Bootstrap analysis for the A/B testing of groups with different gate setting to optimizing the player retention. American Sign Language(ASL) Recognition with Deep Learning
+• Loading, examining, and preprocessing the data of images for the neural network
+• Build and train a convolutional neural network with TensorFlow to classify images of ASL letters
+
+Build Convolutional Neural Networks for multi-class classification of Sign Language
+• Parse and load image data from Sign Language MNIST dataset by cvs reader • Use ImageDataGenerator to normalize the images for neural network
+• Extend the dataset with Data Augmentation to tackle the possible overfitting issue
+• Create a Convolutional Neural Network with several convolutional layers to classify images of hands depicting the 26 letters of the english alphabet
+
+Utilize Transfer Learning to train a Neural Network
+• Create a pre-trained model by loading the weights of InceptionV3 model and make all of the layers non-trainable
+• Using Tensorflow’s Functional API to combine the pre-trained model with own layers, including dropout layers to prevent overfitting
+• Compile and train the model to classify pictures of humans from horses, and implement callbacks to stop training at desired accuracy
+
+Build a Decision tree from scratch and apply it to the task of classification
+• Load the dataset and generate one-hot encoded features
+• Write functions to caculate the entropy of a node, split the dataset into left and right branches and compute the infor- mation gain from the split
+• Assemble these functions to find out the best split feature, then build the decision tree by recursive process
+
+Implement the anomaly detection algorithm to detect failing servers on a network
+• Create functions to calcualte the mean and variance of different features, such as throughput and latency of response of each server
+• Apply those Gaussian parameters to calculate the probability of each example and select the threshold ε using the F1 score on a cross validation set.
+
+K-means clustering and its application on image compression
+• Load the image and transform it into 2-D matrix for compression
+• Write functions to assign each pixel to closest centroid and calculate the new centroids
+• Run the K-means clustering algorithm based on the function just created to compress the 24-bits color representation of an image into 4-bits representation
+
+Implement collaborative filtering to build a recommender system for movies
+• Load the movie ratings dataset and add a new column with some ratings to represent the preference of new customer
+• Build a loop to learn the parameters, W and X, of all movies and customers with GradientTape function of TensorFlow 
+• Compute the ratings for all movies based on the learned parameters and display movies recommended to the new customer using Pandas DataFrame
+
+Implement content-based filtering using a neural network to build a recommender system for movies
+• Use scikit-learn to scale the dataset for improving convergence and split the data into training and test sets
+• Build two Keras sequential models and combine them with dot product to complete Neural Network for content-based filtering with Keras functional API.
+• Make recommendations for new user and existing user, or use the Neural Network to find similar movies for recom- mendations.
+
+Analyze International Debt Statistics with SQL based on The World Bank data
+• Implement SQL codes to figure out conclusions such as total/maximum amount of debt owed by the countries, aver- age amount of debt across different debt indicators and the most common debt type, using clauses/functions including selecting, filtering, ordering, group by, subquery, etc.
+
+Natural Language Processing of BBC News archive in TensorFlow
+• Code the functions to remove stopwords from text and to load the data from a csv file.
+• Tokenize the text and convert each text data point into its padded sequence representation.
+• Tokenize the labels and prepare them as multiclassification targets for neural network.
+• Create neural network including Embedding, GlobalAveragePooling1D and Dense layers to classify the text into dif- ferent category.
