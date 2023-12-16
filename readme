@@ -3,7 +3,9 @@ In this folder, I keeped part of class projects I completed from Coursera course
 They are:
 Mobile Games A/B Testing with Cookie Cats using Bootstrap analysis
 • Working with pandas DataFrames and pandas plot method to manipulate and visualize the data
-• Applying Bootstrap analysis for the A/B testing of groups with different gate setting to optimizing the player retention. American Sign Language(ASL) Recognition with Deep Learning
+• Applying Bootstrap analysis for the A/B testing of groups with different gate setting to optimizing the player retention. 
+
+American Sign Language(ASL) Recognition with Deep Learning
 • Loading, examining, and preprocessing the data of images for the neural network
 • Build and train a convolutional neural network with TensorFlow to classify images of ASL letters
 
